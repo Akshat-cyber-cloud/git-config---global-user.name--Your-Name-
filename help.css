@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, img, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content container */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headings */
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style Frequently Asked Questions (FAQs) */
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h3 {
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style Media Gallery */
+.media {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.media img {
+    max-width: 50%;
+    margin-right: 10px;
+}
+
+.media iframe {
+    max-width: 100%;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add additional styles as needed to customize your webpage's appearance */

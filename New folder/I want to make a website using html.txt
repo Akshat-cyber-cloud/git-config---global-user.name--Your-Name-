@@ -1,0 +1,9 @@
+I want to make a website using html and css on food wastage that should be responsive on the topic of food wastage and management
+
+Follow the steps:
+
+1: Create a heading of Food wastage and management and add a catchy phrase like “How to Fight Food Waste and Make a Difference”.
+Add a background image ,after that add this  provide some statistics or facts that illustrate the scale and impact of food wastage. For example, you can use some of the data from the ReFED Insights Engine1 or the EPA website2 to show how much food is wasted in the US, how much it costs, and how it affects the environment and the society,include some images or infographics that visualize the data or the solutions to food waste.
+
+2: Add to introduce your website’s purpose and goals, and what you offer to your visitors. For example, you can say something like "This website is dedicated to raising awareness and providing practical tips
+

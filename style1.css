@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* color: white; */
+    background-image: url('https://catersales.co.uk/wp-content/uploads/2019/04/the-importance-of-food-waste-management.png');
+    background-size: cover;
+    /* vertical-align: text-top; */
+    padding: 70px 0; 
+    height: 55vh;
+    /* background-color: black; */
+}
+header h1{
+    font-size: 10vh;
+    vertical-align:baseline;
+    color: rgb(242, 237, 237);
+    background-color: rgb(51, 15, 51);
+    margin: 80px;
+    padding: 5px;
+}
+header h3{
+    font-size: 5vh;
+    color: rgb(225, 225, 19);
+}
+
+/* h1 {
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); Add background overlay for readability
+    padding: 20px;
+} */
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* section {
+    padding: 20px;
+} */
+section#section1,
+section#section2,
+section#section3 {
+    /* padding: 10px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Adjust color and intensity here */
+    background-color: rgb(30, 4, 30);
+}
+
+
+/* Add this CSS to remove margin and padding for h1 and nav */
+h1, nav {
+    margin: 10;
+    padding: 10;
+}
+/* Adjust the margin or padding for the section */
+
+section {
+    /* margin-top: 10px; */
+    /* padding: 10px; */
+    /* border: px solid #ddd; Border style */
+    box-shadow: 0 0 10px rgba(225, 144, 144, 0.2); /* Box shadow style */
+}
+
+
+/* Existing CSS code remains the same */
+/* Existing CSS code remains the same */
+
+.content-container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(7, 28, 35);
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    font-family:'Arial',sans-serif;
+    color: white;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+    height: 80vh;
+    /* padding: 20px; */
+    /* width: auto; */
+}
+
+.image img {
+    max-width: 90%;
+    max-height: 90%;
+    width: 90%; /*Adjust the width as needed to control the image size*/
+    display: block; /* To center the image within the div */
+    margin: 0 auto; /* To center the image horizontally */
+}
+/* Existing CSS code remains the same */
+
+/* Existing CSS code remains the same */
+
+.section-footer {
+    background-color: #f0f0f0; /* Background color for the footer section */
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+.section-footer a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333; /* Text color for the links */
+}
+
+.icon {
+    width: 24px; /* Adjust the icon size as needed */
+    height: 24px;
+    fill: #333; /* Adjust the icon color as needed */
+}
+
+
+
+
+
+
+
+

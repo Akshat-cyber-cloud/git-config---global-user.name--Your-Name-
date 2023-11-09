@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://catersales.co.uk/wp-content/uploads/2019/04/the-importance-of-food-waste-management.png');
+    background-position: 20% 80%; /* x-axis, y-axis */
+    /* width: 0px; */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    /* background-color: #ffcc00; */
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.sections p {
+    text-align: left;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; /* adjust as needed */
+    width: 0px;
+    height: 100px;
+}
+
+.content-container {
+    flex: 2;
+}

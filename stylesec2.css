@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+header {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/HD-free-rainbow-cool-backgrounds.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 70px 0; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+section {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center; /* Center-align the heading */
+    font-size: 24px;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/HD-free-rainbow-cool-backgrounds.jpg'); /* Add a background image to the h2 */
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay to improve text readability */
+    color: white;
+    padding: 10px;
+    margin: 0; /* Remove default margin to prevent spacing */
+}
+
+h3 {
+    text-align: center; /* Center the heading within the nested sections */
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for nested sections and their background images */
+.nested-section {
+    margin-top: 10px; /* Add space between nested sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the nested sections */
+    overflow: hidden;
+    transition: transform 0.3s; /* Add transition for smooth enlargement effect */
+    background-color: rgb(39, 37, 37);
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.nested-background {
+    background-size: cover;
+    color: rgb(202, 169, 169);
+    text-align: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    background-color: rgb(39, 37, 37);
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay for readability */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left, .content-right {
+    flex: 1;
+}
+
+.left-image, .right-image {
+    max-width: 50%; /* Adjust image size as needed */
+}
+
+.left-image {
+    text-align: left; /* Align the left image to the left */
+}
+
+.right-image {
+    text-align: right; /* Align the right image to the right */
+} 
+
+/* External CSS file for styling */

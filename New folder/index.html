@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wastage Awareness</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Food Wastage Awareness</h1>
+        <p>Your source for reducing food waste and saving the planet</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>About Us</h2>
+            <p>Welcome to our website dedicated to raising awareness about food wastage and finding sustainable solutions. Together, we can make a difference in reducing food waste and its impact on our environment.</p>
+        </section>
+        <section id="goals">
+            <h2>Our Goals</h2>
+            <ul>
+                <li>Spread awareness about the issue of food wastage</li>
+                <li>Provide tips and solutions to reduce food waste at home</li>
+                <li>Share inspiring stories and articles about food waste initiatives</li>
+            </ul>
+        </section>
+        <section id="interactive">
+            <h2>Calculate Meals Saved</h2>
+            <p>Enter the number of people in your household and the number of meals you've saved from food waste:</p>
+            <form id="mealCalculator">
+                <label for="householdSize">Household Size:</label>
+                <input type="number" id="householdSize" min="1" required>
+                <label for="mealsSaved">Meals Saved:</label>
+                <input type="number" id="mealsSaved" min="0" required>
+                <button type="button" id="calculateButton">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Food Wastage Awareness</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

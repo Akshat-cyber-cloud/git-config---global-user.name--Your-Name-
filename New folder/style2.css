@@ -1,0 +1,89 @@
+
+        /* Style the body with a background image */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://catersales.co.uk/wp-content/uploads/2019/04/the-importance-of-food-waste-management.png');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            height: 400px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .background-image {
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white; /* Adjust the text color for better visibility on the image */
+            text-align: center; /* Center text on the image */
+            padding: 100px 0; /* Add padding for better spacing */
+        }
+        
+
+        /* Style the navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 35px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Center the navigation items */
+        .navbar .nav-center {
+            text-align: center;
+        }
+
+        /* Additional CSS styles for the two-column layout */
+    .content-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #ffffff; /* Add a background color for contrast */
+        border: 2px solid #333; /* Adjust the border width and color as needed */
+        border-radius: 10px;
+    }
+
+    .content-left {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .content-right {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content-right img {
+        max-width: 100%;
+        height: auto;
+        width: 50%;
+    }
+    .content-left h2 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Horizontal offset, vertical offset, blur radius, color */
+    }
+    
+    .content-left p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Horizontal offset, vertical offset, blur radius, color */
+    }
+
+
+        /* Creating a new section */
